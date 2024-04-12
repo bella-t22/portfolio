@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isabella Torres - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <nav>
@@ -13,37 +19,60 @@
             <li><a href="">Get In Touch</a></li>
         </ul>
     </nav>
+    <header id="intro-section">
+        <p id="intro">Hey there!<br>My name is <span id="name">Isabella Torres</span></p>
+        <div id="center">
+            <p>...and I am a</p>
+            <h1>Creative<br>Developer</h1>
+        </div>
+        <button>View My Portfolio</button>
+    </header>
+
     <main>
-        <section id="intro">
-            <p>Isabella Torres</p>
-            <h1>Creative Developer</h1>
-            <p>Portfolio</p>
+        <section id="about-me-section">
+            <h2>A Little About Me</h2>
+            <div class="section-content">
+                <p>My name is Isabella Torres, and I am a <span class="special">Front-End Web Developer</span> based in Northern California. I am fluent in HTML, CSS, and Javascript, and I am currently learning React and Node. I truly enjoy the creative and logistical aspects of development, and aim to create high-functioning, beautiful websites. In my free time, I love waterskiing, wake-surfing, snowboarding, traveling, reading, art, and gardening as just a few of my main hobbies.</p>
+            </div>
         </section>
 
-        <section id="about-me">
-            <h2>Hey There!</h2>
-            <p>I am Isabella Torres, and I am a Front-End Web Developer based in Northern California. I am fluent in HTML, CSS, and Javascript, and I am currently learning React and Node. I truly enjoy the creative and logistical aspects of development, and aim to create high-functioning, beautiful websites. In my free time, I love waterskiing, wake-surfing, snowboarding, traveling, reading, art, and gardening as a few of my main hobbies.</p>
+        <section id="skills-section">
+            <h2>My Skills Include...</h2>
+            <div class="section-content skills-box"></div>
         </section>
 
-        <section id="my-work">
+        <section id="my-work-section">
             <h2>My Work</h2>
-            <div class="card">
-                <img src="" alt="">
-                <h3>A Website</h3>
-                <p>This project showcases...</p>
+            <div class="section-content work-box">
+                <div class="card">
+                    <img src="" alt="">
+                    <h3>A Website</h3>
+                    <p>This project showcases...</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h3>A Website</h3>
+                    <p>This project showcases...</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h3>A Website</h3>
+                    <p>This project showcases...</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="" alt="">
-                <h3>A Website</h3>
-                <p>This project showcases...</p>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <h3>A Website</h3>
-                <p>This project showcases...</p>
-            </div>
+        </section>
+
+        <section id="contact-section">
+            <h2>Get In Touch</h2>
+            <p>Please feel free to email me if you are interested in my work or have any questions!</p>
+            <p>Email: <i>b.jtorr22@gmail.com</i></p>
         </section>
     </main>
+
+    <footer>
+        <p>Created by: Isabella Torres</p>
+        <p>Portfolio 2024</p>
+    </footer>
 
 </body>
 </html>

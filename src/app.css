@@ -1,0 +1,125 @@
+/* color: rgb(9, 55, 97);
+color: rgb(4, 23, 41); */
+
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 20px 20px;
+    margin: 0;
+}
+
+#intro {
+    align-self: flex-start;
+}
+
+#name {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#center {
+    align-self: center;
+}
+
+#center p {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-size: 7rem;
+    margin: 10px;
+}
+
+#intro-section button {
+    align-self: flex-end;
+    margin: 20px;
+    border: none;
+    background-color: white;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+section {
+    margin: 100px 250px;
+}
+
+h2 {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-size: 2rem; 
+}
+
+.special {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.section-content {
+    margin: 0 100px;
+    line-height: 2rem;
+}
+
+.skills-box {
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.work-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.card img, .card h3, .card p {
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: rgb(80, 80, 80)
+}
