@@ -11,6 +11,10 @@ body {
     font-size: 1.2rem;
 }
 
+#nav-menu-btn {
+    display: none;
+}
+
 nav {
     position: absolute;
     right: 0;
@@ -80,15 +84,15 @@ h2 {
     font-size: 2rem; 
 }
 
+.section-content {
+    margin: 0 70px;
+    line-height: 2rem;
+}
+
 .special {
     font-family: "Aclonica", sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
-}
-
-.section-content {
-    margin: 0 100px;
-    line-height: 2rem;
 }
 
 .skills-box {
@@ -117,9 +121,108 @@ h2 {
     margin: 5px;
 }
 
+.card p {
+    text-align: center;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
     color: rgb(80, 80, 80)
+}
+
+ @media (max-width: 1200px) {
+    section {
+        margin: 100px 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    section {
+        margin: 100px 100px;
+    }
+}
+
+@media (max-width: 850px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    section {
+        margin: 100px 70px;
+    }
+
+    .card img {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav li {
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    section {
+        margin: 100px 50px;
+    }
+
+    .section-content {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    #name {
+        font-size: 1.3rem;
+    }
+
+    .section-content {
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #nav-menu-btn {
+        display: block;
+        position: absolute;
+        right: 0;
+        border: none;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .work-box {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .card img {
+        width: 200px;
+        height: 150px;
+    }
 }
